@@ -21,18 +21,18 @@ aside#notifications
   @include align-items(center)
   @include display(flex)
 
-  .notification-message
-    @include flex(1)
-
   .icon
     text-align: center
     width: 50px
+
+  li
+    @include flex(1)
 
   p
     color: #fff
     font-size: 16px
     line-height: 24px
-    display: inline
+    @include flex(1)
 
   a
     color: #000
